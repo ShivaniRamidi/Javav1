@@ -6,7 +6,7 @@ public class getDayFromDate {
 			public static boolean isLeap(int year) {
 		        return (year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0));
 		    }								
-			
+			//added comment
 			public static String getDayOfWeek(int year, int month , int day) {
 			
 			String[] daysOfWeek = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
